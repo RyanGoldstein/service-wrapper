@@ -1,0 +1,37 @@
+{
+  "name": "service-wrapper",
+  "version": "0.1.0",
+  "description": "Linux service wrapper for node.js",
+  "main": "./lib/service.js",
+  "author": "Ryan Goldstein",
+  "contributors": [
+    {
+      "name": "Ryan Goldstein",
+      "email": "me@ryangoldstein.com"
+    }
+  ],
+  "license": "GPL-3.0",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "service",
+    "startup",
+    "init.d"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": ">=3.6.2",
+    "gulp-mocha": ">=0.4.1",
+    "gulp-jshint": ">=1.6.1",
+    "gulp-jslint": ">=0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/RyanGoldstein/service-wrapper.git"
+  },
+  "engines": [
+    "node"
+  ],
+  "scripts": {
+    "test": "gulp test"
+  }
+}
