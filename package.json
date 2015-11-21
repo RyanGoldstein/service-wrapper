@@ -1,8 +1,8 @@
 {
   "name": "service-wrapper",
   "version": "0.1.0",
-  "description": "Linux service wrapper for node.js",
-  "main": "./lib/service.js",
+  "description": "Service architecture for Node.js",
+  "main": "./lib/index.js",
   "author": "Ryan Goldstein",
   "contributors": [
     {
@@ -17,7 +17,12 @@
     "startup",
     "init.d"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "babel-core": "^6.2.1",
+    "pkginfo": "^0.3.0",
+    "watch": "^0.13.0",
+    "yargs": "^1.3.3"
+  },
   "devDependencies": {
     "gulp": ">=3.6.2",
     "gulp-mocha": ">=0.4.1",
