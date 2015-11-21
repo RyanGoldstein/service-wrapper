@@ -37,6 +37,11 @@
     "node"
   ],
   "scripts": {
-    "test": "gulp test"
+    "install": "node tasks/install.js",
+    "run": "node tasks/run.js",
+    "test": "node tasks/test.js",
+    "lint": "node tasks/lint.js",
+    "clean": "rm -r build || true && rm -r dist",
+    "build": "node tasks/build.js"
   }
 }
